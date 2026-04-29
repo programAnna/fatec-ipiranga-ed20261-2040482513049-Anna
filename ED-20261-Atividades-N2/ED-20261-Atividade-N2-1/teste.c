@@ -4,18 +4,18 @@
 #include <stdlib.h>
 #include "minhalib.h"
 
-typedef struct noh {
+typedef struct No {
     int conteudo;
-    noh*esq;
-    noh* dir;
-} noh;
+    No*esq;
+    No* dir;
+} No;
 
-void criarArvore(noh **pRaiz)
+void criarArvore(No **pRaiz)
 {
     *pRaiz = null; // quando criar a árvore o valor da raiz eh nulo
 }
 
-void insercao(noh **pRaiz, int num)
+void insercao(No **pRaiz, int num)
 {
     if(*pRaiz == null)
     {
