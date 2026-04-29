@@ -1,3 +1,5 @@
+//entregar um .c e um pdf - infografico//
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "minhalib.h"
