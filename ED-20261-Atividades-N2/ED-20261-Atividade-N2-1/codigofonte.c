@@ -1,6 +1,3 @@
-#ifndef MINHABIB_H
-#define MINHABIB_H
-
 #include <stdio.h>
 
 typedef struct No {
@@ -144,5 +141,3 @@ void imprimir_descendentes(No* no) {
         imprimir_descendentes(no->dir);
     }
 }
-
-#endif
