@@ -11,6 +11,8 @@ typedef struct No {
     struct No *esq;
     struct No *dir;
 
+} No;
+
 No* inserir(No *raiz, int valor) {
 
     /* Se chegou em NULL,
