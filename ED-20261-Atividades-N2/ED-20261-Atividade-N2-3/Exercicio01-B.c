@@ -50,3 +50,4 @@ int main() {
         // *p acessa o valor apontado por p
         printf("%d ", *p);
     }
+}
