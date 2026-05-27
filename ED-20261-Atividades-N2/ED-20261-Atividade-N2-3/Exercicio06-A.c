@@ -1,6 +1,9 @@
 RA: 2040482513049 - Anna Beatriz Louro da Silva
 
 
+#include <stdio.h>
+#include <stdlib.h>
+
 int imprimirAncestral(No *raiz, int valor) {
     if(raiz == NULL) {
         return 0;
