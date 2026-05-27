@@ -3,6 +3,15 @@ RA: 2040482513049 - Anna Beatriz Louro da Silva
 
 #include <stdio.h>
 
+typedef struct No {
+
+    int dado;
+
+    struct No *esq;
+    struct No *dir;
+
+} No;
+
 No* inserir(No *raiz, int valor) {
 
     // Criando novo no 
